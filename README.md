@@ -43,8 +43,19 @@ npm clean-install
 npm ci
 ```
 
+### Install a Specific Tag
+A tag can be used when installing packages as a reference to a version instead of using a specific version number:
+
+```
+npm install <name>@<tag>
+``````
+```
+npm install react@next
+```
+This also applies to npm dedupe.
+
 \
-Uninstall package (dependency)
+### Uninstall package (dependency)
 ```
 npm uninstall <module-name>
 ```
